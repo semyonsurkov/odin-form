@@ -440,14 +440,6 @@ button {
   transition: background-color 0.3s, color 0.3s;
 }
 
-button:hover {
-  background-color: red;
-  color: black;
-}
-
-button:active {
-  background-color: darkred;
-}
 
 .log-in {
   display: flex;
@@ -467,6 +459,7 @@ a:hover {
 a:active {
   color: darkred;
 }
+
 
 @media screen and (max-width: 600px) {
   .image-section {
